@@ -1,0 +1,42 @@
+.inner-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.header-button{
+    position: fixed;
+    margin-top: 60px;
+}
+button{
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 20px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    margin: 15px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+}           
+
+button:hover{
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
